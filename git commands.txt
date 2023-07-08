@@ -5,9 +5,19 @@ git config --global user.name"jay"
 git config --global user.email"jpg0389@gmail.com"
 git config --list
 git init
-git pull
-git push
+git pull origin mai
+git push origin mai
 git add .
+git status
+git commit -m "First Commit"
 git remote -v
 git remote add origin <git repo>
-
+git log
+git show
+git branch
+git branch -m  <Branch name> To Create New Branch
+git ignore
+git log --one line
+git log -- grep "filename/fileformat"
+git checkout <branch name> -- To Change the Branch name
+git merge <Branch Name>
