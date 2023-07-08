@@ -21,3 +21,9 @@ git log --one line
 git log -- grep "filename/fileformat"
 git checkout <branch name> -- To Change the Branch name
 git merge <Branch Name>
+git reset
+git revert
+git cleen -n/-f
+git tag -a <name> -m "tag message" <Commit  id>
+git clone
+ssh-keygen
