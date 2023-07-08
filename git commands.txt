@@ -1,6 +1,13 @@
+yum install git -y
+apt install git -y
+git --version
+git config --global user.name"jay"
+git config --global user.email"jpg0389@gmail.com"
+git config --list
 git init
 git pull
 git push
 git add .
 git remote -v
 git remote add origin <git repo>
+
