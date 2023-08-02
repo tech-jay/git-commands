@@ -30,7 +30,8 @@ git cleen -n/-f
 git tag -a <name> -m "tag message" <Commit  id>
 git clone
 ssh-keygen
-git cherry-pick <commit id>
+git cherry-pick <commit id> -- 
 git squash-moving multiple commits into its parent commit.
 git stash-work with same branch with two different tasks. 
+git bisect -its devided into two groups good commits can be taken and bad commits will be removed.
 
