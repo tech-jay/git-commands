@@ -4,9 +4,9 @@ git --version
 git config --global user.name"jay"
 git config --global user.email"jpg0389@gmail.com"
 git config --list
-git init
-git pull origin mai
-git push origin mai
+git init- initilized empty git repo.
+git pull origin main-pull the code
+git push origin main-push the code
 git fetch
 git add .
 git status
