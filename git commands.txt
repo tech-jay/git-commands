@@ -7,6 +7,7 @@ git config --list
 git init
 git pull origin mai
 git push origin mai
+git fetch
 git add .
 git status
 git commit -m "First Commit"
@@ -16,14 +17,20 @@ git log
 git show
 git branch
 git branch -m  <Branch name> To Create New Branch
+git branch -D  <Branch name> To Delete  Branch
 git ignore
 git log --one line
 git log -- grep "filename/fileformat"
 git checkout <branch name> -- To Change the Branch name
 git merge <Branch Name>
+git rebase
 git reset
 git revert
 git cleen -n/-f
 git tag -a <name> -m "tag message" <Commit  id>
 git clone
 ssh-keygen
+git cherry-pick <commit id>
+git squash
+git stash
+
