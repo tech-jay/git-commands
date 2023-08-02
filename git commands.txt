@@ -31,6 +31,6 @@ git tag -a <name> -m "tag message" <Commit  id>
 git clone
 ssh-keygen
 git cherry-pick <commit id>
-git squash-
+git squash-moving multiple commits into its parent commit.
 git stash-work with same branch with two different tasks. 
 
